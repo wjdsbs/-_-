@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body id="incheon">
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="incheon_region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: aliceblue;">Incheon</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: aliceblue;">인천</h1>
+        </a>
+    </header>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="incheon_region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="incheon_spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="incheon_accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="incheon_food.html"><li>#음식점</li></a><a href="incheon_food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="slideShow">
+        <div id = "slide">
+            <img src = "../media/slide6.png" alt = " ">
+            <img src = "../media/slide2.png" alt = " ">
+            <img src = "../media/slide3.png" alt = " ">
+            <button id = "prev"&lang;></button>
+            <button id = "next"&rang;></button>
+        </div>
+    </section>
+    <aside>
+        <div id="scrollMenuForRegion">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li id="darkOrLight">다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="left">
+            <div class="innerBox">
+                <h2># 이달의 BEST REVIEW</h2>
+                <div class="reviewBox">
+                    <h3>월미도 추천!</h3>
+                    <hr style="width: 100px; margin:0; margin-bottom: 20px;">
+                    <p>박**<br><br>친구들과 당일치기 여행 중 갔다왔습니다! 완전 재밌었어요~<br><br>★★★★★</p>
+                </div>
+            </div>
+        </article>
+        <article id="right">
+            <div class="innerBox">
+                <h2># 당일치기 인천 여행 코스 추천!</h2>
+                <iframe width="430" height="262.5" src="https://www.youtube.com/embed/s83N16OhwoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="float: right;">- 여행은 인천이지 Incheon Tour</p>
+            </div>
+        </article>
+        <article id="bottom">
+            <div class="innerBox">
+                <h2 style="margin-left: 30px; margin-bottom: 5px; "># 실시간 급상승</h>
+                <br>
+                <div id="firstPage">
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/%EC%9D%B8%EC%B2%9C_%EC%B0%A8%EC%9D%B4%EB%82%98%ED%83%80%EC%9A%B4_%EC%A0%95%EB%AC%B8_Incheon_chinatown%2C_Main_gate.jpg/2560px-%EC%9D%B8%EC%B2%9C_%EC%B0%A8%EC%9D%B4%EB%82%98%ED%83%80%EC%9A%B4_%EC%A0%95%EB%AC%B8_Incheon_chinatown%2C_Main_gate.jpg" alt="차이나타운 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">차이나타운<br>★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjlfMjAw/MDAxNTk1OTkxOTA1Nzc0.qSgSoZ0bTZQmKsFioGlkBefIgPdGVv5nQml5D-iw3h8g.VNHPukR3z-juzAngL8kmqykgKt7c9pEizodH3gFnxkog.JPEG.weriche/8-2%EB%B2%88.jpg?type=w800" alt="쉐라톤 그랜드 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">쉐라톤 그랜드 호텔<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://www.icjg.go.kr/comm/getImage?srvcId=MEDIA&upperNo=521&fileTy=MEDIA&fileNo=1" alt="월미도 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">월미도<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <img src="../media/rightArrow.png" alt="" id="rightArrow">
+                </div>
+                <div id="secondPage">
+                    <img src="../media/leftArrow.png" alt="" id="leftArrow">
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://img.siksinhot.com/place/1552627856281083.png?w=540&h=436&c=Y" alt="마시안제빵소 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">마시안제빵소<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://img.siksinhot.com/place/1412235832752688.jpg?w=540&h=436&c=Y" alt="그리다디저트 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">그리다디저트<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://img.siksinhot.com/place/1581669976036576.jpg?w=540&h=436&c=Y" alt="부암갈비 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">부암갈비<br>★★★★</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+    <script src = "../js/slideshow.js"></script>
+</body>
+</html>

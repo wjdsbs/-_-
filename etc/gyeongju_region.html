@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body id="gyeongju">
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="gyeongju_region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: white;">Gyeongju</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: white;">경주</h1>
+        </a>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="gyeongju_region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="gyeongju_spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="gyeongju_accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="gyeongju_food.html"><li>#음식점</li></a><a href="gyeongju_food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="slideShow">
+        <div id = "slide">
+            <img src = "../media/slide5.png" alt = " ">
+            <img src = "../media/slide2.png" alt = " ">
+            <img src = "../media/slide3.png" alt = " ">
+            <button id = "prev"&lang;></button>
+            <button id = "next"&rang;></button>
+        </div>
+    </section>
+    <aside>
+        <div id="scrollMenuForRegion">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li id="darkOrLight">다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="left">
+            <div class="innerBox">
+                <h2># 이달의 BEST REVIEW</h2>
+                <div class="reviewBox">
+                    <h3>경주월드 후기</h3>
+                    <hr style="width: 100px; margin:0; margin-bottom: 20px;">
+                    <p>최**<br><br>너무너무 재밌었어요!!!!<br><br>★★★★★</p>
+                </div>
+            </div>
+        </article>
+        <article id="right">
+            <div class="innerBox">
+                <h2># 경주여행 주요 관광지 총정리</h2>
+                <iframe width="430" height="262.5" src="https://www.youtube.com/embed/hAgcU8z-zR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="float: right;">- 화니여행 HWANI</p>
+            </div>
+        </article>
+        <article id="bottom">
+            <div class="innerBox">
+                <h2 style="margin-left: 30px; margin-bottom: 5px; "># 실시간 급상승</h>
+                <br>
+                <div id="firstPage">
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="http://hiltongj.cdn2.cafe24.com/renew/opengraph/hilton-social-img.jpg" alt="힐튼 경주 호텔 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">힐튼 경주<br>★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://post-phinf.pstatic.net/MjAxOTAxMTBfMjYw/MDAxNTQ3MDk3MDk3NDg3.T4sxYweh5UnyrNfTrNz_NUUMkUG-GFV7uOw7yQitI0gg.J0U0jMDBcu7rYkmiU_WpjhJ6Vkugt2RD7xyc_9RSOBkg.JPEG/49164_16112611440049124100.jpg?type=w1200" alt="코모도 호텔 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">코모도 호텔<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://blog.kakaocdn.net/dn/bAXtds/btqNthnttYC/ddcRQCmwB9h9qPv93iLAVk/img.jpg" alt="베지 베이커리 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">베지 베이커리<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <img src="../media/rightArrow.png" alt="" id="rightArrow">
+                </div>
+                <div id="secondPage">
+                    <img src="../media/leftArrow.png" alt="" id="leftArrow">
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSu7C_6ntjQ9USZsJnycBwpYpeIlWeDsJncg&usqp=CAU" alt="첨성대 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">첨성대<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="https://blog.kakaocdn.net/dn/QEBnK/btq6FvGmeqX/YxDQ6Oy3oKgKmQgcz9VvZk/img.png" alt="황남빵 사진">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">황남빵<br>★★★★★</p>
+                        </div>
+                    </div>
+                    <div class="bestBox">
+                        <div class="bestBoxTop">
+                            <img src="../media/불국사.jpg" alt="불국사">
+                        </div>
+                        <div class="bestBoxBottom">
+                            <p class="smallFont">불국사<br>★★★★</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+    <script src = "../js/slideshow.js"></script>
+</body>
+</html>

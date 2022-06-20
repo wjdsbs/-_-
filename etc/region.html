@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: aliceblue;">Seoul</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: aliceblue;">서울</h1>
+        </a>
+    </header>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="food.html"><li>#음식점</li></a><a href="food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="slideShow">
+        <div id = "slide">
+            <img src = "../media/slide1.png" alt = " ">
+            <img src = "../media/slide2.png" alt = " ">
+            <img src = "../media/slide3.png" alt = " ">
+            <button id = "prev"&lang;></button>
+            <button id = "next"&rang;></button>
+        </div>
+    </section>
+    <aside>
+        <div id="scrollMenuForRegion">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li>다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="left">
+            <div class="innerBox">
+                <h2># 이달의 BEST REVIEW</h2>
+                <div class="reviewBox">
+                    <h3>경복궁 야간개장, 추천합니다!</h3>
+                    <hr style="width: 100px; margin:0; margin-bottom: 20px;">
+                    <p>김**<br><br>부모님 모시고 다녀왔어요! 좋은 추억이 되었습니다. 다들 한 번씩 가보기를 추천합니다!<br><br>★★★★★</p>
+                </div>
+            </div>
+        </article>
+        <article id="right">
+            <div class="innerBox">
+                <h2># 당신이 서울에서 꼭 가봐야 할 장소 10</h2>
+                <iframe width="430" height="262.5" src="https://www.youtube.com/embed/MbqfFFE8vXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="float: right;">- Seoul Trip Walk</p>
+            </div>
+        </article>
+        <article id="bottom">
+            <div class="innerBox">
+                <h2 style="margin-left: 30px; margin-bottom: 5px; "># 실시간 급상승</h>
+                <br>
+
+                <img src="../media/leftArrow.png" alt="" id="leftArrow">
+                <div class="bestBox">
+                    <div class="bestBoxTop">
+                        <img src="https://d12zq4w4guyljn.cloudfront.net/300_300_20210125084249_photo1_5b502b20f463.jpg" alt="별미곱창 사진">
+                    </div>
+                    <div class="bestBoxBottom">
+                        <p class="smallFont">별미곱창<br>★★★★★</p>
+                    </div>
+                </div>
+                <div class="bestBox">
+                    <div class="bestBoxTop">
+                        <img src="../media/seoul/gyeongbokgung-ga8766bb7e_1280.jpg" alt="경복궁 사진">
+                    </div>
+                    <div class="bestBoxBottom">
+                        <p class="smallFont">경복궁<br>★★★★★</p>
+                    </div>
+                </div>
+                <div class="bestBox">
+                    <div class="bestBoxTop">
+                        <img src="https://www.lottehotel.com/content/dam/lotte-hotel/global/common/company/seoul-signiel.jpg" alt="시그니엘 서울 사진">
+                    </div>
+                    <div class="bestBoxBottom">
+                        <p class="smallFont">시그니엘 서울<br>★★★★★</p>
+                    </div>
+                </div>
+                <img src="../media/rightArrow.png" alt="" id="rightArrow">
+
+            </div>
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+    <script src = "../js/slideshow.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body id="gyeongju">
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="gyeongju_region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: white;">Gyeongju</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: white;">경주</h1>
+        </a>
+    </header>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="gyeongju_region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="gyeongju_spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="gyeongju_accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="gyeongju_food.html"><li>#음식점</li></a><a href="gyeongju_food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <aside>
+        <div id="scrollMenu">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li id="darkOrLight">다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="only">
+            <div class="innerBox">
+                <h2 class="bigFont"># 관광지</h2>
+                <hr style="width: 120px; margin-left: 0;">
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="../media/불국사.jpg" alt="불국사">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 불국사<img src="../media/heart1.png" alt="찜1" id="찜1" class="heart"></h2>
+                        <p class="smallFont">불국사는 지난 1995년 석굴암, 서울의 종묘, 합천 해인사의 팔만 대장경과 함께 우리나라에서
+                            가장 먼저 유네스코 세계문화유산에 등재되었다.<br>
+                            불교를 나라 신앙으로 믿었던 신라인들은 그들이 해낼 수 있는 최고의 건축기법과,노력,정성으로 불국사를 건설했다.
+                            <br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont keyword">
+                            <p>세계문화유산</p>
+                            <p>불교</p>
+                            <p>신라</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIpsfGGxi7XQRsEZ9U8nTjVXolFa6bbgLhMQ&usqp=CAU" alt="문무대왕릉 사진">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 문무대왕릉<img src="../media/heart1.png" alt="찜2" id="찜2" class="heart"></h2>
+                        <p class="smallFont">신라 30대 문무왕의 무덤이다.<br>동해안에서 200m 떨어진 바다에 있는 수중릉으로, 신라인들의 창의적인
+                        생각을 엿볼 수 있는 곳이다.<br>대왕암은 자연 바위를 이용하여 만든 것으로 그 안은 동서남북으로 인공수로를 만들었다. 
+                        바닷물은 동쪽에서 들어와 서쪽으로 나가게 만들어 항상 잔잔하게 하였다. 
+                        수면 아래에는 길이 3.7m, 폭 2.06m의 남북으로 길게 놓인 넓적한 거북모양의 돌이 덮혀 있는데 이 안에 문무왕의 유골이 매장되어 있을 것이라 추측된다. </p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>바다</p>
+                            <p>문무왕</p>
+                            <p>일출</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSu7C_6ntjQ9USZsJnycBwpYpeIlWeDsJncg&usqp=CAU" alt="첨성대 사진">
+                    </div>
+                    <div class="storeText ellipsis" >
+                        <h2 class="bigFont">* 첨성대<img src="../media/heart1.png" alt="찜3" id="찜3" class="heart"></h2>
+                        <p class="smallFont">첨성대는 신라 중기의 석조 건출물로, 선덕여왕 때에 세워진 세계에서 현존하는 가장 오래된 천문대로 알려져 있다.
+                            <br>1962년 12월 20일 국보 제 31호로 지정 되었다.<br>
+                            첨성대는 삼국유사의 기록에 따라 전통적으로 별을 관찰하는 천문대의 기능을 했으리라 여겨져 왔다.
+                        </p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>국보</p>
+                            <p>별</p>
+                            <p>신라</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="visibility: hidden;">
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+</body>
+</html>

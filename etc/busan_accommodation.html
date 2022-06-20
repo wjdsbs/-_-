@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body id="busan">
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="busan_region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: white;">Busan</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: white;">부산</h1>
+        </a>
+    </header>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="busan_region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="busan_spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="busan_accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="busan_food.html"><li>#음식점</li></a><a href="busan_food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <aside>
+        <div id="scrollMenu">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li id="darkOrLight">다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="only">
+            <div class="innerBox">
+                <h2 class="bigFont"># 숙박</h2>
+                <hr style="width: 120px; margin-left: 0;">
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://image.goodchoice.kr/resize_490x348/affiliate/2020/11/12/5facd1c4769bd.jpg" alt="광안리 호텔1 사진">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 광안리 호텔1<img src="../media/heart1.png" alt="찜1" id="찜1" class="heart"></h2>
+                        <p class="smallFont">VIEW로 마비<br>일출, 노을, 야경.<br>마법같이 펼쳐지는 꿈같은 VIEW</p>
+                    </div>
+                    <div>
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont keyword">
+                            <p>오션뷰</p>
+                            <p>광안대교뷰</p>
+                            <p>가족</p>
+                            <p>커플</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://www.hotelscombined.co.kr/rimg/himg/45/0c/f4/ice-194897968-66985027_3XL-357801.jpg?width=1366&height=768&crop=true" alt="파라다이스 호텔 부산 사진">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 파라다이스 호텔 부산<img src="../media/heart1.png" alt="찜2" id="찜2" class="heart"></h2>
+                        <p class="smallFont">하늘과 바다가 맞닿은 곳, 파라다이스호텔 부산.<br>총 객실 532실로 해운대 최대 규모를 자랑하며 해운대 바다가 보이는 오션스파 씨메르 & 풀 등 비즈니스와 리조트의 복합적 기능을 갖춘 특1급 호텔로 해변 측 객실에는 해운대 바다를 한 눈에 내려다 볼 수 있는 발코니 시설을 갖추고 있습니다.<br>테슬라 수퍼차저 6기 24시간 이용 가능</p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>오션스파 씨메르</p>
+                            <p>오션스파 풀</p>
+                            <p>해운대</p>
+                            <p>호캉스</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://pix10.agoda.net/hotelImages/198/198856/198856_17032512080051845193.jpg?ca=6&ce=1&s=1024x768" alt="시그니엘 서울 사진">
+                    </div>
+                    <div class="storeText ellipsis" >
+                        <h2 class="bigFont">* 호텔 일루아<img src="../media/heart1.png" alt="찜3" id="찜3" class="heart"></h2>
+                        <p class="smallFont">가만히 기대어 진정한 쉼을 얻는 자리, 호텔 일루아는 당신께 드리는 바다의 선물입니다.<br>한적하고 편안한 휴양을 원하는사람들을 위해 해운대 달맞이길 언덕에 자리잡은 호텔 일루아.<br>해변에서 15분정도의 거리에 위치해 있어 이용하는데 불편함이 없고 아늑한 분위기를 느낄 수 있습니다.<br>부산 해운대 최고의 풍광을 자랑하는 달맞이 언덕, 호텔 일루아에 들어서면 추억보다 더 행복한 시간이 시작됩니다.</p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>깔끔</p>
+                            <p>한적</p>
+                            <p>뷰 최고</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="visibility: hidden;">
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+</body>
+</html>

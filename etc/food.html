@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: aliceblue;">Seoul</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: aliceblue;">서울</h1>
+        </a>
+    </header>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="food.html"><li>#음식점</li></a><a href="food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <aside>
+        <div id="scrollMenu">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li>다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="only">
+            <div class="innerBox">
+                <h2 class="bigFont"># 음식점</h2>
+                <hr style="width: 120px; margin-left: 0;">
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://d12zq4w4guyljn.cloudfront.net/300_300_20210125084249_photo1_5b502b20f463.jpg" alt="별미곱창 본점 사진">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 별미곱창 본점<img src="../media/heart1.png" alt="찜" class="heart"></h2>
+                        <p class="smallFont">* 서울 송파구 오금로11길 14 별미곱창 본점<br><br>서울 송파구 방이먹자골목에 위치한, <br> 방이동 곱창하면 바로 떠오르는 1인자 맛집!<br>
+                            <ul><li>모듬곱창</li><li>소대창</li><li>소막창</li><li>소곱창</li><li>볶음밥</li></ul></p>
+                    </div>
+                    <div>
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont keyword">
+                            <p>한식</p><p>곱창</p><p>고기</p><p>볶음밥</p><p>포장 가능</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://cdn.imweb.me/upload/S202001158d623c18943a4/0455a79a686fc.png" alt="빠레뜨한남 본점 사진">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 빠레뜨한남 본점<img src="../media/heart1.png" alt="찜" class="heart"></h2>
+                        <p class="smallFont">* 서울 용산구 이태원로54길 16-7 101호<br><br>까다로운 격식이없는, 작고 멋진 캐쥬얼한곳에서 미식을 즐기다.<br>각종 방송과 유튜브에 나온 오믈렛 오므라이스의 원조.
+                        <ul><li>빠레뜨 파스타</li><li>오므라이스</li><li>들기름 육회 파스타</li><li>함박 스테이크</li></ul></p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>양식</p><p>오므라이스</p><p>함박 스테이크</p><p>파스타</p><p>커플</p><p>포장 가능</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://mp-seoul-image-production-s3.mangoplate.com/388192/1735551_1608824928421_84662" alt="멘야하나비 사진">
+                    </div>
+                    <div class="storeText ellipsis" >
+                        <h2 class="bigFont">* 멘야하나비<img src="../media/heart1.png" alt="찜" class="heart"></h2>
+                        <p class="smallFont">* 서울 송파구 백제고분로45길 38<br><br>나고야식 비빔면, 마제소바의 원조 멘야하나비!<br>여러 방송매체를 통해 '마제소바' 맛집으로 알려지고 있음.
+                            <ul><li>마제소바</li><li>도니꾸 마제소바</li><li>네기 시오 마제소바</li><li>쇼유 라멘</li></ul></p>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>일식</p>
+                            <p>마제소바</p>
+                            <p>라멘</p>
+                            <p>포장 가능</p>
+                            <p>배달 가능</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="visibility: hidden;">
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+section > span{
+    font-size: 20px;
+}
+
+header {
+    margin-bottom: 5px; 
+    text-align: center; 
+    height: 150px; 
+    width: 100%
+}
+
+body {
+    margin: 0 auto;
+    width : 1200px;
+}
+
+footer {
+    text-align : center;
+    height:100px; 
+    width: 100%
+}
+
+footer > span {
+    opacity : 0.7;
+    filter: alpha(opacity = 70);
+    font-size: 20px;
+}
+
+#logo {margin-bottom: 20px;}
+
+section {
+    height : 1250px;
+    margin-bottom : 20px;
+}
+
+section > div {
+    display: inline-block;
+}
+
+.seoul {
+    float: left;
+    background-image: url(../media/서울1\ -\ pexels-ethan-brooke-2376710.jpg);
+    background-size: 600px 600px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seoul:hover {
+    opacity : 0.6;
+    filter: alpha(opacity = 60);
+}
+
+.busan {
+    float:right;
+    background-image: url(../media/부산1\ -\ busan-night-scene-g86a70f14a_1920.jpg);
+    background-size: 600px 600px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busan:hover {
+    opacity : 0.6;
+    filter: alpha(opacity = 60);
+}
+
+.gyeongju {
+        float:left;
+        background-image: url(../media/경주1\ -\ sunset-g346007816_1920.jpg);
+        background-size: 600px 600px;
+        width: 600px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.gyeongju:hover {
+    opacity : 0.6;
+    filter: alpha(opacity = 60);
+}
+
+.incheon {
+        float:right;
+        background-image: url(../media/인천1\ -\ city-gd43316468_1920.jpg);
+        background-size: 600px 600px;
+        width: 600px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.incheon:hover {
+    opacity : 0.6;
+    filter: alpha(opacity = 60);
+}
+
+.content{
+    display: felx;
+    flex-direction: column;
+}
+
+.content span {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+

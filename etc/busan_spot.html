@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>여행닷컴</title>
+    <link rel="stylesheet" href="../css/regionstyle.css?after">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body id="busan">
+    <header>
+        <a href="../index.html">
+            <img id="logo" src="../media/logo.png" width="150px" style="text-align: center;">
+        </a>
+        <a href="busan_region.html">
+            <h1 class="regionName" style="font-size: 30pt; color: white;">Busan</h1>
+            <h1 class="regionName" style="font-size: 70pt; color: white;">부산</h1>
+        </a>
+    </header>
+    <nav>
+        <img src="../media/menu_dark.png" alt="메뉴" id="menuIcon">
+        <div class="navInner">
+            <img src="../media/close_dark.png" id="close">
+            <ul>
+                <h1 style="font-size: 40px; font-family: 'YUniverse-B', 'Y유니버스';" >Menu</h1>
+                <a href="busan_region.html"><li><b>#메인</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="busan_spot.html"><li><b>#관광지</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <a href="busan_accommodation.html"><li><b>#숙박</b></li></a>
+                <hr style="width: 200px; margin: 0; opacity: 0.7;">
+                <li id="food1"><b>#먹거리</b><ul class="food2"><a href="busan_food.html"><li>#음식점</li></a><a href="busan_food2.html"><li>#카페</li></a></ul></li>
+            </ul>
+        </div>
+    </nav>
+    <aside>
+        <div id="scrollMenu">
+            <ul>
+                <li><b>QUICK<br>MENU</b></li>
+                <li id="heartList">찜 목록</li>
+                <li id="darkOrLight">다크 모드 전환</li>
+                <li><a href="#logo">맨 위로</a></li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article id="only">
+            <div class="innerBox">
+                <h2 class="bigFont"># 관광지</h2>
+                <hr style="width: 120px; margin-left: 0;">
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://blog.kakaocdn.net/dn/lW2ek/btq2wMtuRoQ/rZKU7u8fAwwjpFprlTNGNK/img.jpg" alt="더베이101">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 더베이101<img src="../media/heart1.png" alt="찜1" id="찜1" class="heart"></h2>
+                        <p class="smallFont">해운대, 동백섬 옆에 위치한 복합문화공간이자 부산에서 가장 유명한 야경 명소.<br>부산 해운대를 대표하는 해양레져 클럽하우스<br>화려한 야경과 맛있는 음식을 즐기는 최고의 휴양지<br>365일 가장 부산다움을 경험 해 보세요!</p>
+                    </div>
+                    <div>
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont keyword">
+                            <p>친구</p>
+                            <p>커플</p>
+                            <p>인생샷</p>
+                            <p>야경</p>
+                            <p>마천루</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_267%2F1548841089253xWQyR_JPEG%2F5965uL51HLf9GYmJp9KUm4jq.jpeg.jpg" alt="광안리 해수욕장 사진">
+                    </div>
+                    <div class="storeText">
+                        <h2 class="bigFont">* 광안리 해수욕장<img src="../media/heart1.png" alt="찜2" id="찜2"  class="heart"></h2>
+                        <p class="smallFont">사계절 내내 즐기는 도심 속 특급 휴양지!<br>해수욕장 뒷산인 금련산에서 내린 질 좋은 사질에 완연한 반월형으로 휘어진 사장은 전국적으로 이름나 있고 해수욕장 주변에는 제각기 독특한 분위기를 자아내는 레스토랑 뿐만 아니라 300여 곳의 횟집, 회센터, 언양불고기, 콩나물해장국 골목과 특색있는 카페거리가있다.<br>해수욕장에 야외상설무대를 설치하여 각종 공연이 상시 열리고 있으며 가까운 곳에 수변공원, 해변공원, 청소년수련원, 해양레포츠센터가 있어 바나나보트, 윈드서핑 등 다양한 해양스포츠도 즐길 수 있다.</p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>해수욕</p>
+                            <p>모래사장</p>
+                            <p>광안대교</p>
+                            <p>야경</p>
+                            <p>인생샷</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="storeBox">
+                    <div class="imgBox">
+                        <img src="https://static.hanatour.com/product/2021/05/17/06095cst5w/default.jpg" alt="해운대 블루라인 파크">
+                    </div>
+                    <div class="storeText ellipsis" >
+                        <h2 class="bigFont">* 해운대 블루라인 파크<img src="../media/heart1.png" alt="찜3" id="찜3" class="heart"></h2>
+                        <p class="smallFont">‘파란 하늘과 바다가 숨쉬는 곳’<br>해운대 블루라인 파크에 오신 것을 환영합니다.<br>해운대 블루라인 파크는 해운대 미포~청사포~송정에 이르는 4.8km 구간의 동해남부선 옛 철도시설을 친환경적으로 재개발하여,<br>수려한 해안 절경을 따라 해운대 해변열차와 해운대 스카이캡슐을 운행하는 국제 관광도시 부산, 해운대 관광특구의 핵심 관광 시설입니다.</p>
+                    </div>
+                    <div class="keyword">
+                        <h3 class="middleFont">* 키워드</h3>
+                        <div class="smallFont">
+                            <p>해변열차</p>
+                            <p>스카이캡슐</p>
+                            <p>뮤제드블루</p>
+                            <p>인생샷</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="visibility: hidden;">
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <p>문의 : 010-1234-5678<br>만든 이: 김도하 , 김정윤 , 노채빈</p>
+    </footer>
+</body>
+</html>
